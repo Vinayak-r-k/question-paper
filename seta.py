@@ -8,6 +8,9 @@
 
 
 
+
+
+
 # n=input("enter character:")
 # if n in "aeiouAEIOU":
 #     print("vovel")
@@ -15,11 +18,17 @@
 #     print("consonant")
 
 
+
+
+
 # n=int(input("enter a number:"))
 # if n%2==0:
 #     print("even")
 # else:
 #     print("odd")
+
+
+
 
 
 
@@ -32,9 +41,16 @@
 
 
 
+
+
+
+
 # n=int(input("enter number:"))
 # for i in range(1,11):
 #     print(i,"*",n,"=",n*i)
+
+
+
 
 
 
@@ -48,6 +64,11 @@
 
 
 
+
+
+
+
+
 # fruits=["apple","banana","orange","mango","grape"]
 # fruits.append("guava")
 # fruits.insert(2,"cherry")
@@ -56,10 +77,14 @@
 
 
 
+
+
 # l=(12,2,1,233,33)
 # print(len(l))
 # print(min(l))
 # print(max(l))
+
+
 
 
 
@@ -76,6 +101,8 @@
 
 
 
+
+
 # for i in range(1,31):
 #     if i%3==0:
 #         continue
@@ -89,13 +116,11 @@
 # fail=False
 # total=0
 # marks=[]
-
 # for i in range(5):
 #     n=int(input("enter marks"))
 #     marks.append(n)
 #     total+=n
 # average=total/5
-
 # if average>90:
 #     print("A")
 # elif average>=75 and average<=89:
@@ -162,18 +187,110 @@
 
 
 
-odd=[]
-even=[]
-five=[]
-numbers=[10,15,20,25,30,35,40,45]
-for i in numbers:
-    if i%5==0:
-        five.append(i)
-    if i%2==0:
-        even.append(i)
-    else:
-        odd.append(i)
-print("odd number",odd)
-print("even numbers",even)
-print("sum of even",sum(even))
-print("divisible by 5",len(five))
+# odd=[]
+# even=[]
+# five=[]
+# numbers=[10,15,20,25,30,35,40,45]
+# for i in numbers:
+#     if i%5==0:
+#         five.append(i)
+#     if i%2==0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# print("odd number",odd)
+# print("even numbers",even)
+# print("sum of even",sum(even))
+# print("divisible by 5",len(five))
+
+
+
+
+
+
+
+
+# t=(1,232,223,322,123,13,2,111,123,116)
+# while True:
+#     print("1) display tuple")
+#     print("2) length of tuple")
+#     print("3) search element")
+#     print("4) count element")
+#     print("5) sum of even")
+#     print("6) second largest number")
+#     print("7) exit")
+
+#     n=int(input("enter choice from 1-7:"))
+#     if n==1:
+#         print(t)
+#     elif n==2:
+#         print(len(t))
+#     elif n==3:
+#         found=False
+#         s=int(input("enter element to search"))
+#         for i in t:
+#             if i==s:
+#                 print("found")
+#                 found=True
+#                 break
+#         if found==False:
+#             print("not found")
+#     elif n==4:
+#         count=0
+#         n=int(input("enterr element to find count"))
+#         for i in t:
+#             if n==i:
+#                 count+=1
+#         print("count=",count)
+#     elif n==5:
+#         soe=0
+#         for i in t:
+#             if i%2==0:
+#                 soe+=i
+#         print("sum of even number is",soe)
+#     elif n==6:
+#         l=list(t)
+#         l.sort()
+#         print(l[-2])
+#     elif n==7:
+#         break
+
+
+
+
+
+
+marks=[]
+student = dict()
+name=input("enter name:")
+age=int(input("enter age:"))
+for i in range(5):
+    mark=int(input("enter marks:"))
+    marks.append(mark)
+student.update({"name":name,"age":age,"marks":marks})
+total=sum(marks)
+average=total/5
+high=max(marks)
+low=min(marks)
+fail=False
+if average>90:
+    grade="A"
+elif average >=75 and average<90:
+    grade="B"
+elif average >=60 and average<75:
+    grade="C"
+elif average>=50 and average<60:
+    grade="D"
+elif average<50:
+    grade="fail"
+    fail=True
+if fail:
+    result="failed"
+else :
+    result="passed"
+student.update({"total":total,"average":average,"grade":grade,"result":result})
+print(student)
+
+
+
+
