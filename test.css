@@ -1,0 +1,21 @@
+p{
+    color: red;
+}
+h2{
+    background-color: black;
+    width: 100%;
+    
+    color: green;
+}
+.name{
+    color: green;
+}
+div{
+    background-color: aqua;
+    opacity: 0.5;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlhpp7wlrmJ9fryAGsyVh6WrejjlA1zWGWqYavz-JduQ&s=10);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

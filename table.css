@@ -1,0 +1,12 @@
+table:hover{
+    background-color: aquamarine;
+}
+td,th{
+    border: 1px solid blue;
+
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top:100px ;
+}

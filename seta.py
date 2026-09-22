@@ -162,18 +162,24 @@
 
 
 
-odd=[]
-even=[]
-five=[]
-numbers=[10,15,20,25,30,35,40,45]
-for i in numbers:
-    if i%5==0:
-        five.append(i)
-    if i%2==0:
-        even.append(i)
-    else:
-        odd.append(i)
-print("odd number",odd)
-print("even numbers",even)
-print("sum of even",sum(even))
-print("divisible by 5",len(five))
+# odd=[]
+# even=[]
+# five=[]
+# numbers=[10,15,20,25,30,35,40,45]
+# for i in numbers:
+#     if i%5==0:
+#         five.append(i)
+#     if i%2==0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# print("odd number",odd)
+# print("even numbers",even)
+# print("sum of even",sum(even))
+# print("divisible by 5:",len(five))
+
+
+
+
+
+

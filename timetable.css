@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+th,td{
+    color: white;
+    border: 0.5px solid rgb(175, 172, 172);
+    padding: 20px;
+}
+th{
+    background-color: rgb(243, 33, 9);
+}
+table{
+    border-collapse:collapse ;
+    margin: auto;
+}
+
+h2{
+    color: white;
+}
+h4{
+    color: grey;
+}
+tr :nth-child(1){
+    background-color: rgb(243, 33, 9);
+}
+
+
+th:hover{
+    background-color: rgb(176, 20, 3);
+    
+}
+td:hover{
+    background-color: rgb(28, 28, 48);
+    
+}
+tr :nth-child(1):hover{
+    background-color: rgb(176, 20, 3);
+}
