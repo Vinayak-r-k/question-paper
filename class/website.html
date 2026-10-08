@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image img{
+            float:right;
+            border-radius: 20px;
+            height: 300px;
+            width: 40%;
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+        input{
+            border-radius: 20px;
+            background-color: rgb(168, 126, 18);
+            border: 0px solid transparent;
+            padding: 10px 20px;
+            
+            color: white;
+
+        }
+        body{
+           
+        }
+        p{
+            color: grey;
+        }
+   
+        .title{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 48);
+    padding: 10px;
+    font-size: 70px;
+    color: white;
+    align-content: center;
+    height: 100px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 30px;
+    
+}
+.logout button{
+    background-color: rgb(103, 103, 6);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90px;
+}
+
+.logout button:hover{
+    color: yellow;
+    
+}
+
+*{
+    padding: 0%;
+    border: none;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.imagebody
+{
+    
+    height: 400px;
+    
+}
+.text{
+    padding-top: 60px;
+}
+.feautres img{
+    height: 50px;
+    width: 50px;
+  
+    
+}
+.body{
+    margin: 40px;
+}
+.feautres{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fast{
+width: 300px;
+height: 200px;
+box-shadow: 0px 0px 5px grey;
+border-radius: 10px;
+margin-right: 30px;
+text-align: center;
+padding: 40px;
+
+}
+.fast img{
+    align-items: center;
+}
+
+     .feautretext{
+       
+        text-align: center;
+        margin-bottom: 20px;
+     }
+     .bottom
+     {
+        text-align: center;
+        background-color: rgb(1, 1, 48);
+        color: white;
+        padding: 50px;
+     }
+     .bottom h6,h3{
+        margin-bottom: 10px;
+     }
+     .bottom button{
+        background-color: rgb(72, 72, 0);
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        width: 100px;
+     }
+    </style>
+</head>
+<body>
+        <div class="title">
+<div class="name">
+    website
+</div>
+<div class="links">
+    <a href="">home</a>
+    <a href="">about</a>
+    <a href="">Services</a>
+    <a href="">contact</a>
+
+</div>
+
+<div class="logout">
+    <button>logout</button>
+</div>
+
+    </div>
+
+
+
+<div class="body">
+
+<div class="imagebody">
+<div class="image">
+    <img src="data:image/jpeg;base64,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" alt=""></div>
+<div class="text">    <h1>Welcome to my website</h1>
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, expedita?</p>
+<input type="button" value="Get Started">
+
+</div>
+
+</div>
+<div class="feautretext">  <h2>Our Features</h2></div>
+<div class="feautres">
+  
+    
+
+    
+    <div class="fast"> <img src="settings.png" alt="">
+    <p>Fast performance</p>  <h6>optimised</h6></div>
+  
+    <div class="fast"><img src="add.png" alt="">
+    <p>Responsive Design</p><h6>works perfectly</h6></div>
+    <div class="fast"><img src="globe.png" alt="">
+    <p>Mordern Ui</p><h6>clean and professional</h6></div>
+</div>
+
+</div>
+
+<div class="bottom">
+    <h3>ready to build your website?</h3>
+    <h6>contact us today and get your project started</h6>
+    <button>contact now</button>
+</div>
+    
+
+
+
+</body>
+</html>
